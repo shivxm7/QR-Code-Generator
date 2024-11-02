@@ -19,6 +19,6 @@ generateBtn.addEventListener("click", () => {
 qrInput.addEventListener("keyup", () => {
     if(!qrInput.value.trim()) {
         wrapper.classList.remove("active");
-        preValue = "";
+        preValue = " ";
     }
 });
